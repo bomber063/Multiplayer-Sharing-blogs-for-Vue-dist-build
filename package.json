@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
-    "upload": "concurrently \"npm run build\" \"cd dist\" \"git init\" \"git add .\" \"git commit -am \"init\"\" \"git remote add origin git@github.com:bomber063/Multiplayer-Sharing-blogs-for-Vue-dist-build.git\" \"git push -f origin master\""
+    "upload": "concurrently \"npm run build\" \"cd dist\" \"git init\" \"git add .\" \"git commit -am \"init\"\" \"git remote add origin git@github.com:bomber063/Multiplayer-Sharing-blogs-for-Vue-dist-build.git\" \"git push -u origin master\""
   },
   "dependencies": {
     "axios": "^0.19.2",
